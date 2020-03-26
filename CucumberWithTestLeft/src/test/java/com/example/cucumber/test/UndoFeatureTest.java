@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 
 //The CucumberOptions annotation specifies different options for the Cucumber test
 @CucumberOptions(
-        format = {"pretty", "html:target/Destination", "json:target/cucumber.json"},
+        format = {"pretty", "html:target/Destination", "json:report/cucumber.json"},
         features={"src/test/resources/UndoFeature.feature"}
 )
 public class UndoFeatureTest {
